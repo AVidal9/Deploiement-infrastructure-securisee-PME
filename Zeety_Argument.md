@@ -10,7 +10,7 @@ Le réseau est organisé en plusieurs VLANs afin d’assurer la sécurité, la s
 | VLAN 40	| Comptabilité	  | 192.168.40.0/24  	| DHCP	                                            | Postes comptables     |
 | LAN     | PfSense	        | Réseau de gestion	| 192.168.10.254                                    |	Passerelle LAN        |	
 
-![Schema Reseau](Pare-feu-PfSense.png"Schema Reseau")
+![Schema Reseau](Pare-feu-PfSense.png)
 
 
 ## Descriptif de chaque rôle installé     
