@@ -1,4 +1,4 @@
-**CONTEXTE :**     
+### CONTEXTE :    
 Zeety est une agence Web gérée par Harry COVERRE, cette agence se développe 
 bien et Harry COVERRE a structuré son entreprise et a bien défini les rôles de 
 chacun.    
