@@ -96,7 +96,7 @@ DNS : **192.168.10.1**
 
 Depuis le Gestionnaire de serveur, ajouter le rôle Services de certificats Active Directory.
 
-![Roles_ADCS](Roles_ADCS_00.png) 
+![Roles_ADCS](Images/Roles_ADCS_00.png) 
 
 Sélectionner :
 
@@ -108,18 +108,18 @@ Installer le rôle.
 
 ### 3.4. Configuration de l’autorité de certification
 
-![Roles_ADCS](Roles_ADCS_0.png)
+![Roles_ADCS](Images/Roles_ADCS_0.png)
 
 Pour configurer le rôle, il faut sélectionner les informations d’identification. Il est important de choisir un compte administrateur du domaine,
 dans ce cas : **ZEETY\Administrateur**.    
 
-![Roles_ADCS](Roles_ADCS_0-1.png)
+![Roles_ADCS](Images/Roles_ADCS_0-1.png)
 
 Sélectionner les services de rôle suivant pour configuration :
 - Autorité de certification    
 - Inscription de l'autorité de certification via le Web    
 
-![Roles_ADCS](Roles_ADCS_01.png)
+![Roles_ADCS](Images/Roles_ADCS_01.png)
 
 Ajouter une nouvelle forêt et renseigner le nom du domaine : **zeety.com**
 
@@ -127,17 +127,17 @@ Choisir Autorité de certification d’entreprise.
 
 Choisir Racine (autorité racine interne).
 
-![Roles_ADCS](Roles_ADCS_02.png)
+![Roles_ADCS](Images/Roles_ADCS_02.png)
 
 Créer une nouvelle clé privée RSA 4096 bits, hachage SHA512.
 
-![Roles_ADCS](Roles_ADCS_03.png)
+![Roles_ADCS](Images/Roles_ADCS_03.png)
 
 Nom commun : zeet-SRVV-ADCS01-CA
 
 Validité : 5 ans.
 
-![Roles_ADCS](Roles_ADCS_04.png)
+![Roles_ADCS](Images/Roles_ADCS_04.png)
 
 Terminer l’installation et démarrer le service.
 
